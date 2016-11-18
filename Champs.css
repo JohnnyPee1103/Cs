@@ -5,9 +5,6 @@ body {
 	background-attachment: fixed;
 }
 
-h1 { 
-text-align: center; ]
-}
 
 /* Twitch */
 
@@ -25,9 +22,29 @@ text-align: center; ]
 
 /* SideNav */
 
-.Logos:hover { -moz-box-shadow: 0 0 20px #7BB2BA; 
-	-webkit-box-shadow: 0 0 20px #7BB2BA; 
-	box-shadow: 0 0 20px #7BB2BA; 
+.LiquidLogo:hover { -moz-box-shadow: 0 0 20px #0044FE; 
+	-webkit-box-shadow: 0 0 20px #0044FE; 
+	box-shadow: 0 0 20px #0044FE; 
+}
+
+.NaviLogo:hover { -moz-box-shadow: 0 0 20px #BFBB5E; 
+	-webkit-box-shadow: 0 0 20px #BFBB5E; 
+	box-shadow: 0 0 20px #BFBB5E; 
+}
+
+.AstralisLogo:hover { -moz-box-shadow: 0 0 20px #A1474A; 
+	-webkit-box-shadow: 0 0 20px #A1474A; 
+	box-shadow: 0 0 20px #A1474A; 
+}
+
+.SKGamingLogo:hover { -moz-box-shadow: 0 0 20px #FEFEFE; 
+	-webkit-box-shadow: 0 0 20px #FEFEFE; 
+	box-shadow: 0 0 20px #FEFEFE; 
+}
+
+.Cloud9Logo:hover { -moz-box-shadow: 0 0 20px #009CD5; 
+	-webkit-box-shadow: 0 0 20px #009CD5; 
+	box-shadow: 0 0 20px #009CD5; 
 }
 
 .fa-2x {
@@ -50,8 +67,8 @@ overflow:visible;
 
 .main-menu {
 background:black;
-position:absolute;
-top:120px;
+position:fixed;
+top:0px;
 bottom:0;
 height:100%;
 left:0;
@@ -79,7 +96,7 @@ display:table;
 border-collapse:collapse;
 border-spacing:0;
 color:#FEFEFE;
- font-family: arial;
+font-family: arial;
 font-size: 14px;
 text-decoration:none;
 -webkit-transform:translateZ(0) scale(1,1);
@@ -103,7 +120,7 @@ position:relative;
 display:table-cell;
 vertical-align:middle;
 width:190px;
-  font-family: 'Titillium Web', sans-serif;
+ font-family: 'Titillium Web', sans-serif;
 }
 
 .no-touch .scrollable.hover {
@@ -149,6 +166,7 @@ padding:0;
     top: 0;
     width: 100%;
 	background-color: black;
+	text-align:center;
 }
 
 .navigation-container {
@@ -195,9 +213,18 @@ padding:0;
 	padding-left: 20px;
 	padding-right: 20px;
     font-size: 16px;
+	font-weight: bold;
     border: none;
     cursor: pointer;
 }
 
+.Menuhover:hover { -moz-box-shadow: 0 0 20px #2C5F82; 
+	-webkit-box-shadow: 0 0 20px #2C5F82; 
+	box-shadow: 0 0 20px #2C5F82; 
+}
 
-
+.Menuhover:hover, .navigation-item-title:hover, .navigation-popup-items a:hover { 
+	-moz-box-shadow: 0 0 20px #2C5F82; 
+	-webkit-box-shadow: 0 0 20px #2C5F82; 
+	box-shadow: 0 0 20px #2C5F82; 
+} 
