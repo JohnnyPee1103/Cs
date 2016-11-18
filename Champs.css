@@ -5,15 +5,6 @@ body {
 	background-attachment: fixed;
 }
 
-.title {
-	position: absolute;
-	top: 50px;
-	left: 0;
-	right: 0;
-	font-size: 30px;
-	text-align: center;
-}
-
 h1 { 
 text-align: center; ]
 }
@@ -58,14 +49,13 @@ overflow:visible;
 }
 
 .main-menu {
-background:#BC9952;
-border-right:2px solid #e5e5e5;
+background:black;
 position:absolute;
-top:0;
+top:60px;
 bottom:0;
 height:100%;
 left:0;
-width:60px;
+width:5px;
 overflow:hidden;
 -webkit-transition:width .05s linear;
 transition:width .05s linear;
@@ -153,56 +143,61 @@ padding:0;
 /* MenuBar */
 
 
-/* Dropdown Button */
-.dropbtn {
-    background-color: black;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
+.navigation {
+	position: fixed;
+    left: 5px;
+    top: 0;
+    width: 100%;
+	background-color: black;
 }
 
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-    background-color: grey;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-    position: absolute;
+.navigation-container {
+	position: relative;
     display: inline-block;
-	bottom: 0;
-	left: 300px; 
-	top: 0; 
-	height: 50px; 
-	width: 100px; 
-	z-index: 200;
 }
 
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
+.navigation-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation div {
+    display: inline-block;
+}
+
+.navigation-list li {
+	display: inline;
+}
+
+.navigation-popup-items {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
+.hide {
+	display: none;
+}
+
+.navigation-popup-items a {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-	background-color: #f1f1f1
+
+.navigation-item-popup-title, .navigation-item-title {
+    background-color: black;
+    color: white;
+    padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {
-	display:block;
-}
+
+

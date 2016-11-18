@@ -1,26 +1,62 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head> 
-<script src="Champs.js"></script>
-<link rel="stylesheet" type="text/css" href="Champs.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="Champs.js"></script>
+  <link rel="stylesheet" type="text/css" href="Champs.css">
 </head>
 <body style="color:white;">
 
-<div class="title">
-<span>
-Welcome to the home of Counter-Strike Champions
-</span>
-</div>
 
-<div class="dropdown">
-  <button onclick="openMenu()" class="dropbtn">Dropdown</button>
-  <div id="aDropdown" class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+<nav class="navigation">
+  <div class="navigation-container">
+    <div class="navigation-header">
+      <a class="navigation-title" href="#">WebSiteName</a>
+    </div>
+    <ul class="navigation-list">
+      <li><a href="#">Home</a></li>
+	    <li>
+	  	<div class="navigation-item-title">Test 0</div>
+		<a href="#"></a>
+	  </li> 
+      <li>  
+	    <div id="aDropdown" class="navigation-dropdown">
+			<div class="navigation-item-title">Test 1</div>
+			<div class="navigation-popup-items hide">
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+			</div>
+		</div>
+	  </li>
+      <li>
+	  	<div class="navigation-item-title">Test 2</div>
+		<a href="#"></a>
+	  </li> 
+      <li>
+		<div class="navigation-item-title">Test 3</div>
+		<a href="#"></a>
+	  </li> 
+	  <div id="aDropdown" class="navigation-dropdown">
+			<div class="navigation-item-title">Testing</div>
+			<div class="navigation-popup-items hide">
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				<a href="#">Link 4</a>
+				<a href="#">Link 5</a>
+			</div>
+		</div>
+    </ul>
   </div>
-</div>
+</nav>
 
+
+<!--
 <div class="Twitch">
 <iframe 
         src="http://player.twitch.tv/?channel=esl_csgo" 
@@ -42,7 +78,10 @@ Welcome to the home of Counter-Strike Champions
 </iframe>
 </div>
 
+-->
+
 <!--SideNav-->
+
 
 <nav class="main-menu">
             <ul>
@@ -124,9 +163,8 @@ Welcome to the home of Counter-Strike Champions
                 </li>
             </ul>           
         </nav>
-		
-<!--MenuBar-->
 
+<!--MenuBar-->
 
 
 </body>
