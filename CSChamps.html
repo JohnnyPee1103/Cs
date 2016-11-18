@@ -4,11 +4,22 @@
 <script src="Champs.js"></script>
 <link rel="stylesheet" type="text/css" href="Champs.css">
 </head>
-<body background="images/Csback.jpg" style="color:white;">
-	
-<a href="page1.html">Go to page 1</a>
+<body style="color:white;">
 
-<h1>Welcome to the home of Counter-Strike Champions</h1>
+<div class="title">
+<span>
+Welcome to the home of Counter-Strike Champions
+</span>
+</div>
+
+<div class="dropdown">
+  <button onclick="openMenu()" class="dropbtn">Dropdown</button>
+  <div id="aDropdown" class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
 
 <div class="Twitch">
 <iframe 
@@ -36,7 +47,7 @@
 <nav class="main-menu">
             <ul>
                 <li>
-                    <a href="page1" title="Team Liquid">
+                    <a href="page1.html" title="Team Liquid">
                         <i class="fa fa-home fa-2x"></i>
                         <img src="images/liquidlogo.jpg" alt="Team Liquid"
 					style="width:120px;height:30px;"	class="Logos">
