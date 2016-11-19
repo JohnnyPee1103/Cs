@@ -258,3 +258,7 @@ padding:0;
 	-webkit-box-shadow: 0 0 20px #2C5F82; 
 	box-shadow: 0 0 20px #2C5F82; 
 } 
+
+.navigation-dropdown {
+			text-align:left;
+}
