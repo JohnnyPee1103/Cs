@@ -1,5 +1,5 @@
 $(function() {
-    // Stick the #nav to the top of the window
+    // Stick the nav to the top of the window
     var nav = $('.navigation');
     var navHomeY = nav.offset().top;
     var isFixed = false;

@@ -188,6 +188,20 @@ padding:0;
 	display: inline;
 }
 
+.navigation-home a{
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.navigation-home a:hover{
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+.home-image {
+	content: url("images/home-button.png");
+}
+
 .navigation-popup-items {
     position: absolute;
     background-color: #f9f9f9;
