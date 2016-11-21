@@ -212,6 +212,8 @@ height: 36px;
 text-align: center;
 vertical-align: middle;
 font-size:20px;
+padding-top: 25px;
+padding-bottom: 25px;
 }
 
 .main-menu:hover,nav.main-menu.expanded {
@@ -273,7 +275,7 @@ position:relative;
 display:table-cell;
 vertical-align:middle;
 width:190px;
- font-family: 'Titillium Web', sans-serif;
+font-family: 'Titillium Web', sans-serif;
 }
 
 .no-touch .scrollable.hover {
