@@ -1,7 +1,7 @@
 /* Background */
 
 body {
-	background-image: url("images/doublect.jpg");	
+	background-image: url("images/liquidbackground.jpg");	
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
@@ -384,9 +384,7 @@ padding:0;
 	filter: alpha(opacity=50);
 }
 
-.home-image {
-	content: url("images/home-button.png");
-}
+g
 
 .navigation-popup-items {
     position: absolute;
@@ -473,30 +471,87 @@ text-align: center;
 color: white;
 }
 
-/* Boxes */
+/* Profiles */
 
-.Box-Model {
-  position:absolute;
-  top:250px;
-  left:500px;
-  border-radius: 0px 35px 0px 7px;
-  -moz-border-radius: 0px 35px 0px 7px;
-  -webkit-border-radius: 0px 35px 0px 7px;
-  border: 2.5px solid #FEFEFE;
-  height: 100px;
-  display: inline-block;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: 25px;
-  margin-right: 25px;
-  padding: 20px;
-  width: 400px;
-  background-image: url("images/textboxbackground.jpg");
-  -webkit-box-shadow: -4px 4px 4px 3px #232323;
-  -moz-box-shadow: -4px 4px 4px 3px #232323;
-  box-shadow: -4px 4px 4px 3px #232323;
+.Profiles {
+	position:absolute;
+	top:262.5px;
+	left:600px;
+	background-color: #FEFEFE;
 }
 
+.Profiles-Elige {
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 2px solid #FEFEFE;
+	height: 175px;
+	width: 750px;
+	display: inline-block;
+	-webkit-box-shadow: -4px 4px 4px 3px #232323;
+	-moz-box-shadow: -4px 4px 4px 3px #232323;
+	box-shadow: -4px 4px 4px 3px #232323;
+}
+
+/* Player Portraits */
+
+.Portraits {
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 2px solid #FEFEFE;
+	height: 200px;
+	width: 200px;
+	display: inline-block;
+	-webkit-box-shadow: -4px 4px 4px 3px #232323;
+	-moz-box-shadow: -4px 4px 4px 3px #232323;
+	box-shadow: -4px 4px 4px 3px #232323;
+}
+
+.Portraits-Elige {
+	position:absolute;
+	top:250px;
+	left:350px;
+	background: url("images/Elige.jpg");
+	background-size: 200px 200px;
+    background-repeat: fixed;
+}
+
+.Portraits-Hiko {
+	position:absolute;
+	top:500px;
+	left:350px;
+	background: url("images/Hiko.jpg");
+	background-size: 200px 200px;
+    background-repeat: fixed;
+}
+
+.Portraits-JDM {
+	position:absolute;
+	top:750px;
+	left:350px;
+	background: url("images/jdm.jpg");
+	background-size: 200px 200px;
+    background-repeat: fixed;
+}
+
+.Portraits-Nitr0 {
+	position:absolute;
+	top:1000px;
+	left:350px;
+	background: url("images/nitr0.jpg");
+	background-size: 200px 200px;
+    background-repeat: fixed;
+}
+
+.Portraits-Pimp {
+	position:absolute;
+	top:1250px;
+	left:350px;
+	background: url("images/pimp.jpg");
+	background-size: 200px 200px;
+    background-repeat: fixed;
+}
 
 /* Team Headers */
 
