@@ -1,7 +1,7 @@
 /* Background */
 
 body {
-	background-image: url("images/liquidbackground.jpg");	
+	background-image: url("images/liquidground.jpg");	
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
@@ -519,7 +519,7 @@ color: white;
 
 .Portraits-Hiko {
 	position:absolute;
-	top:500px;
+	top:525px;
 	left:350px;
 	background: url("images/Hiko.jpg");
 	background-size: 200px 200px;
@@ -528,7 +528,7 @@ color: white;
 
 .Portraits-JDM {
 	position:absolute;
-	top:750px;
+	top:800px;
 	left:350px;
 	background: url("images/jdm.jpg");
 	background-size: 200px 200px;
@@ -537,7 +537,7 @@ color: white;
 
 .Portraits-Nitr0 {
 	position:absolute;
-	top:1000px;
+	top:1075px;
 	left:350px;
 	background: url("images/nitr0.jpg");
 	background-size: 200px 200px;
@@ -546,12 +546,103 @@ color: white;
 
 .Portraits-Pimp {
 	position:absolute;
-	top:1250px;
+	top:1350px;
 	left:350px;
 	background: url("images/pimp.jpg");
 	background-size: 200px 200px;
     background-repeat: fixed;
 }
+
+/* Name Tags */
+
+.NameTags {
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 2px solid #FEFEFE;
+	height: 50px;
+	width: 200px;
+	display: inline-block;
+	-webkit-box-shadow: -4px 4px 4px 3px #232323;
+	-moz-box-shadow: -4px 4px 4px 3px #232323;
+	box-shadow: -4px 4px 4px 3px #232323;
+}
+
+.NameTags-Elige {
+	position:absolute;
+	top:455px;
+	left:350px;
+	background: url("images/globalelite.jpg");
+	background-size: 200px 70px;
+    background-repeat: fixed;
+	font-family: serif, Times, san-serif; 
+	font-size: 24px; 
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: -1px; 
+	color: #4B9DD4;
+}
+
+.NameTags-Hiko {
+	position:absolute;
+	top:730px;
+	left:350px;
+	background: url("images/globalelite.jpg");
+	background-size: 200px 70px;
+    background-repeat: fixed;
+	font-family: serif, Times, san-serif; 
+	font-size: 24px; 
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: -1px; 
+	color: #4B9DD4;
+}
+
+.NameTags-JDM {
+	position:absolute;
+	top:1005px;
+	left:350px;
+	background: url("images/globalelite.jpg");
+	background-size: 200px 70px;
+    background-repeat: fixed;
+	font-family: serif, Times, san-serif;  
+	font-size: 24px; 
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: -1px; 
+	color: #4B9DD4;
+}
+
+.NameTags-Nitr0 {
+	position:absolute;
+	top:1280px;
+	left:350px;
+	background: url("images/globalelite.jpg");
+	background-size: 200px 70px;
+    background-repeat: fixed;
+	font-family: serif, Times, san-serif; 
+	font-size: 24px; 
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: -1px; 
+	color: #4B9DD4;
+}
+
+.NameTags-Pimp {
+	position:absolute;
+	top:1555px;
+	left:350px;
+	background: url("images/globalelite.jpg");
+	background-size: 200px 70px;
+    background-repeat: fixed;
+	font-family: serif, Times, san-serif; 
+	font-size: 24px; 
+	text-align: center;
+	font-weight: bold; 
+	letter-spacing: -1px; 
+	color: #4B9DD4;
+}
+	
 
 /* Team Headers */
 
