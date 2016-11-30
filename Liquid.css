@@ -48,7 +48,8 @@ body {
 
 	a:visited { 
 		COLOR: #FEFEFE; 
-		TEXT-DECORATION: none;  
+		TEXT-DECORATION: none;
+		-webkit-text-stroke: 1px #C4C4C4;		
 }
 
 	a:active { 
@@ -501,16 +502,38 @@ p {
 }
 
 .banner span  { 
-color: #000000; 
-font-family: 'Helvetica Neue', sans-serif; 
-font-size: 50px; 
-font-weight: bold; 
-letter-spacing: -1px; 
-display: inline-block;
-vertical-align: middle;
-line-height: normal;   
-text-align: center; 
-color: white;
+	color: #000000; 
+	font-family: 'Helvetica Neue', sans-serif; 
+	font-size: 50px; 
+	font-weight: bold; 
+	letter-spacing: -1px; 
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;   
+	text-align: center; 
+	color: white;
+}
+
+/* Matches */
+
+.Matches-Position {
+	position:absolute;
+	top:262.5px;
+	left:1400px;
+}
+
+.Matches-Box {
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 2px solid #FEFEFE;
+	height: 1000px;
+	width: 200px;
+	display: inline-block;
+	background-color: #FEFEFE;
+	-webkit-box-shadow: -4px 4px 4px 3px #232323;
+	-moz-box-shadow: -4px 4px 4px 3px #232323;
+	box-shadow: -4px 4px 4px 3px #232323;
 }
 
 /* Profiles */
@@ -609,7 +632,6 @@ color: white;
 	height: 50px;
 	width: 200px;
 	display: inline-block;
-	-webkit-text-stroke: 1px #D8D8D8;
 	-webkit-box-shadow: -4px 4px 4px 3px #232323;
 	-moz-box-shadow: -4px 4px 4px 3px #232323;
 	box-shadow: -4px 4px 4px 3px #232323;
@@ -624,6 +646,7 @@ color: white;
 	font-weight: bold;
 	letter-spacing: -1px; 
 	color: #FEFEFE;
+	-webkit-text-stroke: 1px #C4C4C4;
 }
 
 .NameTags-Elige {
@@ -676,7 +699,7 @@ color: white;
 
 .LiquidHeader {
 	width: 100%;
-	background-color: #2C5F82;
+	background-color: #FEFEFE;
 	min-height: 10em;
 	line-height: 10em;
 	text-align: center;
