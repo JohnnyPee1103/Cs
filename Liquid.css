@@ -1,7 +1,7 @@
 /* Background */
 
 body {
-	background-image: url("images/Liquidbackground2.jpg");	
+	background-image: url("images/liquidpaper.jpg");	
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
@@ -669,9 +669,9 @@ padding:0;
 	height: 200px;
 	width: 200px;
 	display: inline-block;
-	-webkit-box-shadow: -4px 4px 4px 3px #232323;
-	-moz-box-shadow: -4px 4px 4px 3px #232323;
-	box-shadow: -4px 4px 4px 3px #232323;
+	-webkit-box-shadow: -4px 4px 4px 3px #010101;
+	-moz-box-shadow: -4px 4px 4px 3px #010101;
+	box-shadow: -4px 4px 4px 3px #010101;
 }
 
 .Portraits-Elige {
@@ -733,9 +733,9 @@ padding:0;
 	height: 50px;
 	width: 200px;
 	display: inline-block;
-	-webkit-box-shadow: -4px 4px 4px 3px #232323;
-	-moz-box-shadow: -4px 4px 4px 3px #232323;
-	box-shadow: -4px 4px 4px 3px #232323;
+	-webkit-box-shadow: -4px 4px 4px 3px #010101;
+	-moz-box-shadow: -4px 4px 4px 3px #010101;
+	box-shadow: -4px 4px 4px 3px #010101;
 	float: right;
 	clear: left;
 }
