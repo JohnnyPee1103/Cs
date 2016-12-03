@@ -328,8 +328,8 @@
 
 <!--NameTags-->	
 		<div class="NameTags NameTags-Elige NameTags-Text">
-		<a href="CSChamps.html" title="Elige"
-		 class="NamesOpac">Elige</a>
+		<a href="#" title="Elige"
+		 class="NamesOpac" onclick="openProfileBox();">Elige</a>
 		</div>
 		<div class="NameTags NameTags-Hiko NameTags-Text">
 		<a href="CSChamps.html" title="Hiko"
@@ -357,11 +357,11 @@
 		<div>
 		
 <!--Profiles-->
-  <p id="test">
-  <a href="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Here</a>
-  </p>
-  <div id="light" class="white_content"></div>
-  <div id="fade" class="black_overlay" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'"></div>
+ 		<div id="light" class="white_content">
+ 			<div class="Profile-Content"><span>Jonathan "Elige" Jablonowski</span></div>
+ 		</div>
+  		<div id="fade" class="black_overlay" onclick="closeProfileBox();"></div>
+
 		<div class="Profiles Profiles-Elige"></div>
 
 <!--Matches-->
