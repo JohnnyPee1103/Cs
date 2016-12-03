@@ -1,7 +1,7 @@
 /* Background */
 
 body {
-	background-image: url("images/liquidground.jpg");	
+	background-image: url("images/Liquidbackground2.jpg");	
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
@@ -486,11 +486,11 @@ padding:0;
 	line-height: 10em;
 	text-align: center;
 	vertical-align: middle;
-	background: rgb(75,117,150);
-	background: -moz-linear-gradient(top,  rgba(75,117,150,1) 0%, rgba(0,11,12,1) 100%);
-	background: -webkit-linear-gradient(top,  rgba(75,117,150,1) 0%,rgba(0,11,12,1) 100%);
-	background: linear-gradient(to bottom,  rgba(75,117,150,1) 0%,rgba(0,11,12,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b7596', endColorstr='#000b0c',GradientType=0 );
+	background: rgb(125,126,125);
+	background: -moz-linear-gradient(top,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+	background: linear-gradient(to bottom,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 );
 }
 
 .banner p {
@@ -510,6 +510,7 @@ padding:0;
 	line-height: normal;   
 	text-align: center; 
 	color: white;
+	-webkit-text-stroke: 1px #c4c4c4;
 }
 
 /* Matches */
