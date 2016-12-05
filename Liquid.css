@@ -39,6 +39,16 @@ body {
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
+dt, dd { 
+	display: inline; 
+	margin: 0; 
+}
+
+dd:after {
+	content: '\A';
+	white-space: pre;
+}
+
 /* Links */
 
 	a:link { 
@@ -566,7 +576,7 @@ padding:0;
 }
 
 .Profile-Text {
-	padding-top:60px;
+	padding-top: 250px;
 	color:black;
 	font-family: serif;
 	font-size:16px;
@@ -578,7 +588,7 @@ padding:0;
 .Seperator {
 	height:1px;
 	background:#717171;
-	border-bottom:1px solid #313030;
+	border-bottom:1px solid #C4C4C4;
 }
 
 .black_overlay {
@@ -600,7 +610,7 @@ padding:0;
 	top: 25%;
 	left: 25%;
 	width: 960px;
-	height: 720px;
+	height: 1280px;
 	padding: 16px;
 	border-radius: 10px 10px 10px 10px;
 	-moz-border-radius: 10px 10px 10px 10px;
@@ -609,7 +619,7 @@ padding:0;
 	-moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
 	border: 2px solid #848484;
-	background-color: white;
+	background-color: #F1f1f1;
 	z-index: 1002;
 	overflow: auto;
 }
@@ -623,15 +633,166 @@ padding:0;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 );
 	position:absolute;
 	text-align: center;
-	border-top:1px solid #C4C4C4;
-	bottom:0px;
-	left:0px;
-	width:100%;
-	height:75px;
+	border-top: 1px solid #C4C4C4;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 75px;
 	-webkit-box-shadow: 0px -1px 1px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px -1px 1px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px -1px 1px 0px rgba(0,0,0,0.75);
 }
+
+.PlayerInfo {
+	display:inline-block;
+	background: url("images/carbon.jpg");
+	position:absolute;
+	left: 25px;
+	width: 250px;
+	height: 50px;
+	border: 2px solid #FEFEFE;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	padding: 6px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75)
+}
+
+.PlayerInfo span  {  
+	font-family: 'Helvetica Neue', sans-serif; 
+	font-size: 26px; 
+	font-weight: bold; 
+	letter-spacing: -1px; 
+	line-height: normal;    
+	color: white;
+	-webkit-text-stroke: 1px #c4c4c4;
+	padding-left: 12px;
+}
+
+.PlayerInfo p {
+	padding-top: 35px;
+	color:black;
+	font-family: serif;
+	font-size: 12px;
+	letter-spacing: 0px;
+	font-color:black;
+	left: 10px;
+	padding-left: 10px;
+	line-height: 200%;
+	text-align:left;
+}
+
+.MouseInfo {
+	display:inline-block;
+	background: url("images/carbon.jpg");
+	position:absolute;
+	left: 37%;
+	width: 250px;
+	height: 50px;
+	border: 2px solid #FEFEFE;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	padding: 6px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75)
+}
+
+.MouseInfo span  {  
+	font-family: 'Helvetica Neue', sans-serif; 
+	font-size: 26px; 
+	font-weight: bold; 
+	letter-spacing: -1px; 
+	line-height: normal;    
+	color: white;
+	-webkit-text-stroke: 1px #c4c4c4;
+	padding-left: 28px;
+}
+
+.MouseInfo p {
+	padding-top: 35px;
+	color:black;
+	font-family: serif;
+	font-size: 12px;
+	letter-spacing: 0px;
+	font-color:black;
+	left: 10px;
+	padding-left: 10px;
+	line-height: 200%;
+	text-align:left;
+}
+
+.HardwareInfo {
+	display:inline-block;
+	background: url("images/carbon.jpg");
+	position:absolute;
+	right: 25px;
+	width: 250px;
+	height: 50px;
+	border: 2px solid #FEFEFE;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	padding: 6px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75)
+}
+
+.HardwareInfo span  {  
+	font-family: 'Helvetica Neue', sans-serif; 
+	font-size: 26px; 
+	font-weight: bold; 
+	letter-spacing: -1px; 
+	line-height: normal;    
+	color: white;
+	-webkit-text-stroke: 1px #c4c4c4;
+	padding-left: 58px;
+}
+
+.HardwareInfo p {
+	padding-top: 35px;
+	color:black;
+	font-family: serif;
+	font-size: 12px;
+	letter-spacing: 0px;
+	font-color:black;
+	left: 10px;
+	padding-left: 10px;
+	line-height: 200%;
+	text-align:left;
+}
+
+.ProfilePortraits {
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 2px solid #FEFEFE;
+	height: 200px;
+	width: 200px;
+	display: inline-block;
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+	float: right;
+	clear: left;
+}
+
+.ProfilePortraits-Elige {
+	position:absolute;
+	top: 25px;
+	left: 25px;
+	background: url("images/Elige.jpg");
+	background-size: 200px 200px;
+    background-repeat: fixed;
+    z-index: 1005;
+    float: right;
+    clear: left;
+}
+
 
 /* Social Icons */
 
@@ -641,8 +802,8 @@ padding:0;
 
 .Contents {
 	position:absolute;
-	top:262.5px;
-	left:600px;
+	top: 262.5px;
+	left: 600px;
 	background-color: #FEFEFE;
 }
 
@@ -669,9 +830,9 @@ padding:0;
 	height: 200px;
 	width: 200px;
 	display: inline-block;
-	-webkit-box-shadow: -4px 4px 4px 3px #232323;
-	-moz-box-shadow: -4px 4px 4px 3px #232323;
-	box-shadow: -4px 4px 4px 3px #232323;
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
 }
 
 .Portraits-Elige {
@@ -733,9 +894,9 @@ padding:0;
 	height: 50px;
 	width: 200px;
 	display: inline-block;
-	-webkit-box-shadow: -4px 4px 4px 3px #232323;
-	-moz-box-shadow: -4px 4px 4px 3px #232323;
-	box-shadow: -4px 4px 4px 3px #232323;
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
 	float: right;
 	clear: left;
 }
@@ -752,7 +913,7 @@ padding:0;
 
 .NameTags-Elige {
 	position:absolute;
-	top:455px;
+	top:460px;
 	left:350px;
 	background: url("images/globalelite.jpg");
 	background-size: 194px 70px;
@@ -761,7 +922,7 @@ padding:0;
 
 .NameTags-Hiko {
 	position:absolute;
-	top:730px;
+	top:735px;
 	left:350px;
 	background: url("images/globalelite.jpg");
 	background-size: 194px 70px;
@@ -770,7 +931,7 @@ padding:0;
 
 .NameTags-JDM {
 	position:absolute;
-	top:1005px;
+	top:1010px;
 	left:350px;
 	background: url("images/globalelite.jpg");
 	background-size: 194px 70px;
@@ -779,7 +940,7 @@ padding:0;
 
 .NameTags-Nitr0 {
 	position:absolute;
-	top:1280px;
+	top:1285px;
 	left:350px;
 	background: url("images/globalelite.jpg");
 	background-size: 194px 70px;
@@ -788,7 +949,7 @@ padding:0;
 
 .NameTags-Pimp {
 	position:absolute;
-	top:1555px;
+	top:1560px;
 	left:350px;
 	background: url("images/globalelite.jpg");
 	background-size: 194px 70px;
