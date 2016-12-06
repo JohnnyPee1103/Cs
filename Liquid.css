@@ -49,6 +49,24 @@ dd:after {
 	white-space: pre;
 }
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+tr:hover{
+	background-color:#f8f8f8
+}
+
+
 /* Links */
 
 	a:link { 
@@ -547,6 +565,17 @@ padding:0;
 
 /* Profiles */
 
+.ProfileBanner {
+	display: block !important;
+	position:absolute;
+	top: 50px;
+	left: 0px;
+	width: 100%;
+	background: url("images/carbon.jpg");
+    background-repeat: fixed;
+    z-index: 1004;
+}
+
 .Profile-Header {
 	display:inline-block;
 	background: rgb(125,126,125);
@@ -750,7 +779,7 @@ padding:0;
 	line-height: normal;    
 	color: white;
 	-webkit-text-stroke: 1px #c4c4c4;
-	padding-left: 58px;
+	padding-left: 60px;
 }
 
 .HardwareInfo p {
@@ -789,10 +818,7 @@ padding:0;
 	background-size: 200px 200px;
     background-repeat: fixed;
     z-index: 1005;
-    float: right;
-    clear: left;
 }
-
 
 /* Social Icons */
 
