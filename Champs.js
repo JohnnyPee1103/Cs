@@ -61,6 +61,7 @@ function hideAllPopups(){
 	}
 }
 
+
 function openProfileBox(){
     var test = document.getElementById('light').style.display='block';
     var test = document.getElementById('fade').style.display='block';
@@ -69,3 +70,10 @@ function closeProfileBox(){
     var test = document.getElementById('light').style.display='none';
     var test = document.getElementById('fade').style.display='none';
 }
+
+
+
+$(function() {
+    $( '#myHoverTitle' ).tooltip({ content: $('#myContentHover').html() });
+});
+

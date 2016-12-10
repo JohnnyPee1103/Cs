@@ -39,29 +39,38 @@ body {
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
+dt, dd { 
+	display: inline; 
+	margin: 0; 
+}
+
+dd:after {
+	content: '\A';
+	white-space: pre;
+}
+
 table {
     border-collapse: collapse;
     width: 100%;
 }
 
-th {
-	border: 1px solid black;
-	height: 50px;
-	text-align: center;
-	padding: 24px;
-	width: 100%;
-}
-
-td {
+table, th, td {
     border: 1px solid black;
     height: 50px;
     text-align: center;
     padding: 5px;
 }
 
+th {
+	background-color: #C4C4C4;
+}
 
-thead {
-	background-color:#f8f8f8
+td {
+	background-color: #E2E2E2;
+}
+
+td:hover{
+	background-color: #F8F8F8;
 }
 
 
@@ -92,8 +101,6 @@ thead {
 
 .Twitch{
     position: absolute;
-    top: 250px;
-	right: 635px;
 }
 
 .TwitchChat{
@@ -563,6 +570,7 @@ padding:0;
 
 /* Profiles */
 
+
 .ProfileBanner {
 	border-bottom: 2px solid #FEFEFE;
 	height: 150px;
@@ -619,27 +627,16 @@ padding:0;
 	letter-spacing: 0px;
 	font-color:black;
 	left:10px;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 250px;
+	padding-right: 25px;
 }
 
 .Seperator {
 	position: absolute;
-	top: 440px;
+	top: 540px;
 	height: 1px;
-	width: 660px;
-	left: 270px;
-	padding-right: 10px;
-	background: #717171;
-	border-bottom: 1px solid #C4C4C4;
-}
-
-.Seperator2 {
-	position: absolute;
-	top: 258px;
-	height: 1px;
-	width: 660px;
-	left: 246px;
+	width: 920px;
+	padding-left: 10px;
 	padding-right: 10px;
 	background: #717171;
 	border-bottom: 1px solid #C4C4C4;
@@ -664,7 +661,7 @@ padding:0;
 	top: 25%;
 	left: 25%;
 	width: 960px;
-	height: 1680px;
+	height: 1600px;
 	padding: 16px;
 	border-radius: 10px 10px 10px 10px;
 	-moz-border-radius: 10px 10px 10px 10px;
@@ -673,7 +670,7 @@ padding:0;
 	-moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.75);
 	border: 2px solid #848484;
-	background-color: #F1f1f1;
+	background-color: #FAFAFA;
 	z-index: 1002;
 	overflow: auto;
 }
@@ -698,47 +695,29 @@ padding:0;
 }
 
 .PlayerInfo {
-	display:inline-block;
-	position:absolute;
-	top: 418px;
+	display: inline-block;
+	position: absolute;
+	top: 175px;
 	left: 25px;
-	width: 250px;
-	height: 50px;
-	padding: 6px;
-}
-
-.PlayerInfo span  {  
-	font-family: 'Helvetica Neue', sans-serif; 
-	font-size: 26px; 
-	font-weight: bold; 
-	letter-spacing: -1px; 
-	line-height: normal;    
-	color: white;
-	-webkit-text-stroke: 1px #c4c4c4;
-	padding-left: 12px;
-}
-
-.PlayerInfo p {
-	padding-top: 35px;
-	color:black;
-	font-family: serif;
-	font-size: 12px;
-	letter-spacing: 0px;
-	font-color:black;
-	left: 10px;
-	padding-left: 10px;
-	line-height: 200%;
-	text-align:left;
+	width: 200px;
 }
 
 .MouseInfo {
 	display:inline-block;
+	background: url("images/carbon.jpg");
 	position:absolute;
-	top: 652px;
+	top: 580px;
 	left: 25px;
 	width: 250px;
 	height: 50px;
+	border: 2px solid #FEFEFE;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
 	padding: 6px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75)
 }
 
 .MouseInfo span  {  
@@ -769,8 +748,8 @@ padding:0;
 	display:inline-block;
 	background: url("images/carbon.jpg");
 	position:absolute;
-	top: 920px;
-	right: 25px;
+	top: 935px;
+	left: 25px;
 	width: 250px;
 	height: 50px;
 	border: 2px solid #FEFEFE;
@@ -832,8 +811,118 @@ padding:0;
     z-index: 1005;
 }
 
-/* Social Icons */
+/* Profile Slides */
 
+
+/* Social Icons */
+@font-face {
+    font-family: 'si';
+    src: url('icons/socicon.eot');
+    src: url('icons/socicon.eot?#iefix') format('embedded-opentype'),
+         url('icons/socicon.woff') format('woff'),
+         url('icons/socicon.ttf') format('truetype'),
+         url('icons/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(PATH_TO/socicon.svg) format(svg);
+    }
+}
+
+.soc {
+	position: absolute;
+    overflow: hidden;
+    margin: 0; 
+    padding: 10;
+    list-style: none;
+    padding-top: 20px;
+    left: 380px;
+}
+
+.soc li {
+    display: inline-block;
+    *display: inline;
+    zoom:1;
+}
+
+.soc li a {
+    font-family: si!important;
+    font-style: normal;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+
+    -o-transition: .1s;
+    -ms-transition: .1s;
+    -moz-transition: .1s;
+    -webkit-transition: .1s;
+    transition: .1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    position: relative;
+    z-index: 1;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 19px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    margin-right: 15px;
+    color: #ffffff;
+    background-color: none;
+}
+
+.soc a:hover {
+    z-index: 2;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.soc-icon-last{
+    margin: 0 !important;
+}
+
+.soc-twitter {
+    background-color: #4da7de;
+}
+
+.soc-twitter:before {
+    content:'\e040';
+}
+
+.soc-twitch {
+    background-color: #6441a5;
+}
+
+.soc-twitch:before {
+    content:'\e05a';
+}
+
+.soc-steam {
+    background-color: #171a21;
+}
+
+.soc-steam:before {
+    content:'\e037';
+}
 
 
 /* Team Contents */
