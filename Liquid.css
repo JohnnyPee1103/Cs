@@ -39,15 +39,6 @@ body {
   font-family: "Helvetica Neue", Arial, sans-serif;
 }
 
-dt, dd { 
-	display: inline; 
-	margin: 0; 
-}
-
-dd:after {
-	content: '\A';
-	white-space: pre;
-}
 
 table {
     border-collapse: collapse;
@@ -570,6 +561,23 @@ padding:0;
 
 /* Profiles */
 
+.Stats:hover { 
+	-webkit-text-stroke: 0.5px #c4c4c4;
+}
+
+.KeyStats {
+	position: absolute;
+	top: 210px;
+	left: 300px;
+	z-index: 1004;
+	text-decoration: underline;
+}
+
+.StatsText {
+	font-weight: bold;
+	color: black !important;
+	font-size: 18px;
+}
 
 .ProfileBanner {
 	border-bottom: 2px solid #FEFEFE;

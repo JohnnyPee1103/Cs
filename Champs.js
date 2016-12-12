@@ -72,8 +72,93 @@ function closeProfileBox(){
 }
 
 
+function statsMouseOver(){
+    var test = document.getElementById('fade').style.display='block';
+}
 
-$(function() {
-    $( '#myHoverTitle' ).tooltip({ content: $('#myContentHover').html() });
-});
 
+function infoTooltipValue(value1, value2, value3, value4, value5, value6, value7, value8, value9, value10, value11, value12, value13, value14, value15, value16, value17, value18, value19, value20){
+var string = '<table>';
+string += '<tbody>';
+string += '<tr>';
+string += '<th>';
+string += value1;
+string += '</th>';
+string += '<td>';
+string += value2;
+string += '</td>';
+string += '</tr>';
+string += '<tr>';
+string += '<th>';
+string += value3;
+string += '</th>';
+string += '<td>';
+string += value4;
+string += '</td>'
+string += '</tr>'
+string += '<tr>';
+string += '<th>';
+string += value5;
+string += '</th>';
+string += '<td>';
+string += value6;
+string += '</td>';
+string += '</tr>';
+string += '<tr>';
+string += '<th>';
+string += value7;
+string += '</th>';
+string += '<td>';
+string += value8;
+string += '</td>';
+string += '</tr>';
+string += '<tr>';
+string += '<th>';
+string += value9;
+string += '</th>';
+string += '<td>';
+string += value10;
+string += '</td>';
+string += '</tr>';
+string += '<tr>';
+string += '<th>';
+string += value11;
+string += '</th>';
+string += '<td>';
+string += value12;
+string += '</td>';
+string += '</tr>';
+string += '<tr>';
+string += '<th>';
+string += value13;
+string += '</th>';
+string += '<td>';
+string += value14;
+string += '</td>';
+string += '</tr>';
+string += '<tr>';
+string += '<th>';
+string += value15;
+string += '</th>';
+string += '<td>';
+string += value16;
+string += '</td>';
+string += '</tr>';
+string += '<tr>';
+string += '<th>';
+string += value17;
+string += '</th>';
+string += '<td>';
+string += value18;
+string += '</td>';
+string += '</tr>';
+string += '<tr>';
+string += '<th>';
+string += value19;
+string += '</th>';
+string += '<td>';
+string += value20;
+string += '</td>';
+string += '</tr>';
+return string;
+}
