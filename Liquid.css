@@ -561,22 +561,36 @@ padding:0;
 
 /* Profiles */
 
-.Stats:hover { 
+.ProfileMenu {
+	position: absolute;
+	background: rgb(125,126,125);
+	background: -moz-linear-gradient(top,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+	background: linear-gradient(to bottom,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 );
+	display: inline-block;
+	height: 30px;
+	width: 956px;
+	border-bottom: 2px solid #C4C4C4;
+	z-index: 1004;
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
+}
+
+.Statshov:hover { 
 	-webkit-text-stroke: 0.5px #c4c4c4;
 }
 
-.KeyStats {
+.Stats {
 	position: absolute;
-	top: 210px;
-	left: 300px;
 	z-index: 1004;
-	text-decoration: underline;
 }
 
 .StatsText {
 	font-weight: bold;
-	color: black !important;
-	font-size: 18px;
+	color: white !important;
+	font-size: 12px;
 }
 
 .ProfileBanner {
