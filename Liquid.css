@@ -571,7 +571,7 @@ padding:0;
 	display: inline-block;
 	height: 30px;
 	width: 956px;
-	border-bottom: 2px solid #C4C4C4;
+	border-bottom: 2px solid #FEFEFE;
 	z-index: 1004;
 	-webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
@@ -643,12 +643,12 @@ padding:0;
 .Profile-Text {
 	position:absolute;
 	top: 250px;
-	color:black;
+	color: black;
 	font-family: serif;
-	font-size:16px;
+	font-size: 16px;
 	letter-spacing: 0px;
 	font-color:black;
-	left:10px;
+	left: 10px;
 	padding-left: 250px;
 	padding-right: 25px;
 }

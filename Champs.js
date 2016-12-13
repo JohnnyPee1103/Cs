@@ -215,7 +215,7 @@ return string;
 function clutchRounds(vs1, vs2, vs3, vs4, vs5){
 var string = '<table><tbody>';
 string += '<tr>';
-string += '<th>Cluthes<th>Rounds Won</th>';
+string += '<th>Clutches<th>Rounds Won</th>';
 string += '</tr>';
 string += '<tr>';
 string += '<th>1 vs 1</th>';
