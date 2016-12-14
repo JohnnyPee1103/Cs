@@ -1,5 +1,6 @@
 /* Background */
 
+
 body {
 	background-image: url("images/blackliquid.jpg");	
 	background-repeat: no-repeat;
@@ -88,6 +89,10 @@ td:hover{
 		TEXT-DECORATION: none; 
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
 /* Twitch */
 
 .Twitch{
@@ -971,137 +976,57 @@ padding:0;
 /* Player Portraits */
 
 .Portraits {
+	position: absolute;
 	border-radius: 10px 10px 10px 10px;
 	-moz-border-radius: 10px 10px 10px 10px;
 	-webkit-border-radius: 10px 10px 10px 10px;
 	border: 2px solid #FEFEFE;
 	height: 200px;
 	width: 200px;
-	display: inline-block;
+	display: block;
 	-webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+	overflow: hidden;
 }
 
-.Portraits-Elige {
-	position:absolute;
-	top:250px;
-	left:350px;
-	background: url("images/Elige.jpg");
-	background-size: 200px 200px;
-    background-repeat: fixed;
-}
-
-.Portraits-Hiko {
-	position:absolute;
-	top:525px;
-	left:350px;
-	background: url("images/Hiko.jpg");
-	background-size: 200px 200px;
-    background-repeat: fixed;
-}
-
-.Portraits-JDM {
-	position:absolute;
-	top:800px;
-	left:350px;
-	background: url("images/jdm.jpg");
-	background-size: 200px 200px;
-    background-repeat: fixed;
-}
-
-.Portraits-Nitr0 {
-	position:absolute;
-	top:1075px;
-	left:350px;
-	background: url("images/nitr0.jpg");
-	background-size: 200px 200px;
-    background-repeat: fixed;
-}
-
-.Portraits-Pimp {
-	position:absolute;
-	top:1350px;
-	left:350px;
-	background: url("images/pimp.jpg");
-	background-size: 200px 200px;
-    background-repeat: fixed;
-}
 
 /* Name Tags */
+#Ports {
+	position: relative;
+	padding: 10px;
+}
 
 .NamesOpac:hover { 
 	opacity: 0.90;
 }
 
 .NameTags {
+	position: absolute;
 	border-radius: 10px 10px 10px 10px;
 	-moz-border-radius: 10px 10px 10px 10px;
 	-webkit-border-radius: 10px 10px 10px 10px;
 	border: 2px solid #FEFEFE;
 	height: 50px;
 	width: 200px;
-	display: inline-block;
+	display: block;
 	-webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
-	float: right;
-	clear: left;
+	overflow: hidden;
+	text-align: center;
+	background: url("images/globalelite.jpg");
+	background-repeat: absolute;
+	background-size: 194px 70px;
 }
 
-.NameTags-Text {
+.NameTags span {
 	font-family: serif; 
 	font-size: 24px; 
-	text-align: center;
 	font-weight: bold;
 	letter-spacing: -1px; 
 	color: #FEFEFE;
 	-webkit-text-stroke: 1px #C4C4C4;
-}
-
-.NameTags-Elige {
-	position:absolute;
-	top:460px;
-	left:350px;
-	background: url("images/globalelite.jpg");
-	background-size: 194px 70px;
-    background-repeat: fixed;
-}
-
-.NameTags-Hiko {
-	position:absolute;
-	top:735px;
-	left:350px;
-	background: url("images/globalelite.jpg");
-	background-size: 194px 70px;
-    background-repeat: fixed;
-}
-
-.NameTags-JDM {
-	position:absolute;
-	top:1010px;
-	left:350px;
-	background: url("images/globalelite.jpg");
-	background-size: 194px 70px;
-    background-repeat: fixed;
-}
-
-.NameTags-Nitr0 {
-	position:absolute;
-	top:1285px;
-	left:350px;
-	background: url("images/globalelite.jpg");
-	background-size: 194px 70px;
-    background-repeat: fixed;
-}
-
-.NameTags-Pimp {
-	position:absolute;
-	top:1560px;
-	left:350px;
-	background: url("images/globalelite.jpg");
-	background-size: 194px 70px;
-    background-repeat: fixed;
 }
 	
 
